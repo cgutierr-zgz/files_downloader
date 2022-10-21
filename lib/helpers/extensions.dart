@@ -11,7 +11,6 @@ extension ConstrainerX on Widget {
 }
 
 extension BuildContextExtensionsX on BuildContext {
-
   /// Grants access to [ThemeData] based on given context
   ///
   /// Usage:
