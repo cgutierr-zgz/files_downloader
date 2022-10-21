@@ -1,0 +1,36 @@
+name: file_downloader
+description: Download files from the internet
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+  flutter: 3.3.3
+
+dependencies:
+  bloc: ^8.1.0
+  dotted_border: ^2.0.0+2
+  equatable: ^2.0.5
+  file_picker: ^5.2.1
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.1
+  flutter_dropzone: ^3.0.5
+  flutter_web_downloader:
+    git:
+      url: https://github.com/cgutierr-zgz/flutter_web_downloader
+      ref: 28a617475e132bd3bc31a00557e8a63393d414ab
+  flutter_web_plugins:
+    sdk: flutter
+  hydrated_bloc: ^8.1.0
+
+dev_dependencies:
+  bloc_test: ^9.1.0
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.3.0
+  very_good_analysis: ^3.1.0
+
+flutter:
+  uses-material-design: true
+  generate: true
